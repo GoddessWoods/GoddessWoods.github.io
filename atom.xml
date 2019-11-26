@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://goddesswoods.github.io/</id>
     <title>coco</title>
-    <updated>2019-11-25T15:45:14.030Z</updated>
+    <updated>2019-11-26T15:50:27.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://goddesswoods.github.io/"/>
     <link rel="self" href="https://goddesswoods.github.io//atom.xml"/>
@@ -16,33 +16,20 @@
         <link href="https://goddesswoods.github.io//post/git-latexdiff">
         </link>
         <updated>2019-11-25T14:03:56.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="1-下载工具包">1. 下载工具包</h3>
-<p>在<a href="https://gitlab.com/git-latexdiff/git-latexdiff">官网</a>  下载git latexdiff的工具包，解压。</p>
-]]></summary>
         <content type="html"><![CDATA[<h3 id="1-下载工具包">1. 下载工具包</h3>
 <p>在<a href="https://gitlab.com/git-latexdiff/git-latexdiff">官网</a>  下载git latexdiff的工具包，解压。</p>
-<!-- more -->
-<h3 id="2-拷贝文件">2. 拷贝文件</h3>
-<p>将下图红框标识出的文件拷贝到仓库目录下，确保与<strong>待比较的tex文件</strong>在同一目录下<br>
-<img src="https://goddesswoods.github.io//post-images/1574691490472.jpg" alt="文件拷贝"></p>
-<!-- more -->
-<h3 id="3-运行windows插件">3. 运行windows插件</h3>
+<h3 id="2-运行windows插件">2. 运行windows插件</h3>
 <p>在cmd中运行<strong>windows_install.cmd</strong>,运行结果如下<br>
 <img src="https://goddesswoods.github.io//post-images/1574691522326.jpg" alt=""><br>
 <img src="https://goddesswoods.github.io//post-images/1574691546195.jpg" alt="运行插件"></p>
-<!-- more -->
-<h3 id="4-生成比较文档">4. 生成比较文档</h3>
+<h3 id="3-生成比较文档">3. 生成比较文档</h3>
 <p>使用git latexdiff命令生成当前文档与之前文档的比较文档<br>
 <img src="https://goddesswoods.github.io//post-images/1574691581594.jpg" alt="生成比较文档"></p>
-<!-- more -->
-<h3 id="5-生成文件目录">5. 生成文件目录</h3>
+<h3 id="4-生成文件目录">4. 生成文件目录</h3>
 <figure data-type="image" tabindex="1"><img src="https://goddesswoods.github.io//post-images/1574691595614.jpg" alt="文件目录"></figure>
-<!-- more -->
-<h3 id="6-文档示例">6. 文档示例</h3>
+<h3 id="5-文档示例">5. 文档示例</h3>
 <figure data-type="image" tabindex="2"><img src="https://goddesswoods.github.io//post-images/1574691625811.jpg" alt="文档示例"></figure>
-<!-- more -->
 <p><strong>如果遇到无法解决的bug，可以尝试重启一下电脑</strong></p>
-<!-- more -->
 <p>关于latexdiff，踩过的坑就下面这个<br>
 <img src="https://goddesswoods.github.io//post-images/1574691648103.jpg" alt=""><br>
 解决方案很简单，就是按照上面的提示，在原有的命令上加 <strong>--pdf-viewer CMD</strong></p>
